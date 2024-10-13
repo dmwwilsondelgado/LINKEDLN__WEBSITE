@@ -143,10 +143,6 @@ header {
 }
 
 
-
-
-
-
   /* perfil */
 .navigation_profile{
     height: 30px;
@@ -155,10 +151,12 @@ header {
     
 }
 
-
-
-
 .navegacion_item--border{
     border-radius: solid  2px var(--COLOR_2);
     border-bottom: solid 2px;
+}
+
+
+.navigation__icon {
+    font-size: 1.5rem;
 }
