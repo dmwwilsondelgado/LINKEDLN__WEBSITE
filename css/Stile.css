@@ -6,7 +6,7 @@
 /* importacioneas */
 @import url(header.css);
 /* importamos el contenedor grid*/
-@import url(content.css);
+@import url(main.css);
 /* sidebar  */
 @import url(sidebar.css);
 *{
@@ -41,10 +41,11 @@ body{
 }
 
 .content-layout{
+    margin-top: 70px;
     display: grid;
-    grid-template-columns:  300px 300px 300px;
-    /* grid-template-rows: ; */
+    grid-template-columns:  280px 1fr 280px;
     grid-template-areas: 
     'sidebar' 'main' 'aside';
+    gap: 10px;
 }
 
