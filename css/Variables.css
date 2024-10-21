@@ -11,7 +11,7 @@
     --NEGRO_SUPER_profundo:#181818;
     --NEGRO_PROFUNDO:#121212;/*NEGRO EBANO SE LLAMABA   */
     --GRIS_SCARLA:#373737;
-    --GRIS_PERLA:#d4d4d4;
+    /* --GRIS_PERLA:#d4d4d4; */
     --GRIS_NEUTRO:#aaa;
     --BLANCO_BARRA:#edf3f8;   
 
@@ -21,4 +21,6 @@
 
     /* Colorees y Varibles para el perfil de linkenid */
     --COLOR_2:#222;/*para el hover de la barra   */
+    --BLANCO_CONTENEDOR:#eeeeee;
+    /* --COLOR_B:; */
   }
