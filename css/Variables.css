@@ -1,17 +1,26 @@
 :root{
-    --BLANCO_PURO:#fff;/*sidebar entre otros  */
-    --GRIS_CLARO:#aaaa;/*sidebar entre otros  */
-    --GRIS_SEMITRASPARENTE:rgba(255,255 ,255 ,0.2);/*sidebar entre otros  */
-    --GRIS_OSCURO_CLARO:#717171;  /*sidebar entre otros  */
-    --NEGRO_CARBON:#202020;/*sidebar entre otros  */
-    --BLANCO_HUMO:#f2f2f2;/*sidebar entre otros  */
-    --GRIS_PIZARRA:#313131;/*sidebar entre otros  */
-    --GRIS_ACERO:#4a4a4a;/*sidebar entre otros  */
-    --GRIS_SOMBRA:#212121;/*sidebar entre otros  */
-    --NEGRO_SUPER_profundo:#181818;/*sidebar entre otros  */
+    --BLANCO_PURO:#fff;
+    --GRIS_CLARO:#aaaa;
+    --GRIS_SEMITRASPARENTE:rgba(255,255 ,255 ,0.2);
+    --GRIS_OSCURO_CLARO:#717171;  
+    --NEGRO_CARBON:#202020;
+    --BLANCO_HUMO:#f2f2f2;
+    --GRIS_PIZARRA:#313131;
+    --GRIS_ACERO:#4a4a4a;
+    --GRIS_SOMBRA:#212121;
+    --NEGRO_SUPER_profundo:#181818;
     --NEGRO_PROFUNDO:#121212;/*NEGRO EBANO SE LLAMABA   */
-    --GRIS_SCARLA:#373737;/*sidebar entre otros  */
-    --GRIS_PERLA:#d4d4d4;/*sidebar entre otros  */
-    --GRIS_NEUTRO:#aaa;/*sidebar entre otros  */
-    --BLACO_BARRA:#edf3f8;
+    --GRIS_SCARLA:#373737;
+    /* --GRIS_PERLA:#d4d4d4; */
+    --GRIS_NEUTRO:#aaa;
+    --BLANCO_BARRA:#edf3f8;   
+
+
+
+
+
+    /* Colorees y Varibles para el perfil de linkenid */
+    --COLOR_2:#222;/*para el hover de la barra   */
+    --BLANCO_CONTENEDOR:#eeeeee;
+    /* --COLOR_B:; */
   }

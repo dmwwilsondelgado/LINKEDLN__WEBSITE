@@ -5,8 +5,13 @@
 @import url(Variables.css);
 /* importacioneas */
 @import url(header.css);
+/* importamos el contenedor grid*/
+@import url(main.css);
+/* sidebar  */
+@import url(sidebar.css);
 
-
+ /* aside  * */
+@import url(aside.css);
 
 
 *{
@@ -39,3 +44,13 @@ body{
     padding: 0 20px;
 
 }
+
+.content-layout{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns:  280px 1fr 280px;
+    grid-template-areas: 
+    'sidebar' 'main' 'aside';
+    gap: 10px;
+}
+
