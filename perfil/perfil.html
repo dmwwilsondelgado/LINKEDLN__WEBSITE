@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin - Profile</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="linkedin">
+  <!-- Header -->
+    <header class="header">
+        <div class="header__container container">
+          <div class="header__buscador">
+            <a href="../index.html" class="logo">
+              <img src="../img/logo.png" alt="Logo" class="logo__img">
+            </a>
+            <form class="buscador">
+              <i class='buscador__icon bx bx-search'></i>
+              <input type="text" placeholder="Buscar" class="buscador__barra">
+            </form>
+          </div>
+          <div class="header__navegate">
+            <nav class="navegation">
+              <ul class="navegation__items">
+                <li class="navegation__item">
+                  <a href="../index.html" class="navegation__link navegation__link--active">
+                    <i class="navegation__icon bx bxs-home"></i>
+                    <span class="navegation_text">Inicio</span>
+                  </a>
+                </li>
+                <li class="navegation__item">
+                  <a href="#" class="navegation__link">
+                    <i class="navegation__icon bx bxs-group"></i>
+                    <span class="navegation_text">Mi red</span>
+                  </a>
+                </li>
+                <li class="navegation__item">
+                  <a href="#" class="navegation__link">
+                    <i class='navegation__icon bx bxs-briefcase' ></i>
+                    <span class="navegation_text">Empleos</span>
+                  </a>
+                </li>
+                <li class="navegation__item">
+                  <a href="#" class="navegation__link">
+                    <i class='navegation__icon bx bxs-message' ></i>
+                    <span class="navegation_text">Mensajes</span>
+                  </a>
+                </li>
+                <li class="navegation__item">
+                  <a href="#" class="navegation__link">
+                    <i class='navegation__icon bx bxs-bell' ></i>
+                    <span class="navegation_text">Notificaciones</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="perfil">
+                <div class="perfil__online">
+                  <label for="check-menu" class="perfil__container-img">
+                    <img src="../img/logo_wilson.JPG" alt="foto perfil" class="perfil__img">
+                  </label>
+                </div>
+                <input type="checkbox" class="check-menu" id="check-menu">
+                <div class="menu-perfil" id="menu-perfil">
+                  <div class="info-perfil">
+                    <img src="../img/logo_wilson.JPG" alt="foto perfil" class="perfil__img perfil__img--info">
+                    <div class="info-perfil__information">
+                      <h3 class="info-perfil__name">Wilson Delgado</h3>
+                      <a href="perfil.html" class="info-perfil__link-profile">See your profile</a>
+                    </div>
+                  </div>
+                  <hr class="menu-perfil__separador">
+                  <a href="#" class="more-functions">
+                    <span class="more-functions__container-icon">
+                      <i class="ri-feedback-fill more-functions__icon"></i>
+                    </span>
+                    <p class="more-functions__text">Give FeedBack</p>
+                    <span class="more-functions__sign">></span>
+                  </a>
+                  <a href="#" class="more-functions">
+                    <span class="more-functions__container-icon">
+                      <i class="ri-settings-3-fill more-functions__icon"></i>
+                    </span>
+                    <p class="more-functions__text">Settings and Privacy</p>
+                    <span class="more-functions__sign">></span>
+                  </a>
+                  <a href="#" class="more-functions">
+                    <span class="more-functions__container-icon">
+                      <i class="ri-question-fill more-functions__icon"></i>
+                    </span>
+                    <p class="more-functions__text">Help and Support</p>
+                    <span class="more-functions__sign">></span>
+                  </a>
+                  <a href="#" class="more-functions">
+                    <span class="more-functions__container-icon">
+                      <i class="ri-moon-fill more-functions__icon"></i>
+                    </span>
+                    <p class="more-functions__text">Display and Accessiblity</p>
+                    <span class="more-functions__sign">></span>
+                  </a>
+                  <a href="#" class="more-functions">
+                    <span class="more-functions__container-icon">
+                      <i class="ri-logout-box-r-line more-functions__icon"></i>
+                    </span>
+                    <p class="more-functions__text">Logout</p>
+                    <span class="more-functions__sign">></span>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Contenido -->
+      <div class="contenedor-profile container">
+        <!-- Contenido Principal -->
+        <main class="profile-main">
+          <div class="container-profile">
+            <img src="../img/cover-pic.png" alt="fondo perfil" class="fondo-perfil">
+            <div class="container-profile__info">
+              <img src="../img/logo_wilson.JPG" alt="foto perfil" class="perfil__img perfil__img--profile">
+              <h1 class="container-profile__name">Wilson Delgado</h1>
+              <p class="container-profile__details">Web Developer at Microsoft | Former developer at DataStack and Intern at Oracle</p>
+              <p class="container-profile__contact">San Francisco, United States ·
+                <a href="#" class="container-profile__contact-link">Contact info</a>
+              </p>
+              <div class="mutual-connection">
+                <img src="../img/user-2.png" alt="foto perfil" class="perfil__img">
+                <span class="mutual-connection__details">1 Mutual connection: Orlando Diggs</span>
+              </div>
+              <div class="profile-button">
+                <a href="#" class="profile-button__btn">
+                  <i class="ri-user-add-fill profile-button__icon-primary"></i>
+                  Connect
+                </a>
+                <a href="#" class="profile-button__btn profile-button__btn--message">
+                  <i class="ri-question-answer-fill profile-button__icon-primary--message"></i>
+                  Message
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="profile-description">
+            <h2 class="profile-description__title">About</h2>
+            <p class="profile-description__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, vero consectetur. Eaque, veniam perspiciatis fugit magni, hic excepturi exercitationem, placeat soluta obcaecati reiciendis provident? Nulla eius at rerum maxime error quisquam ab, repudiandae consequatur, minima sit voluptatem? Blanditiis, omnis? Tempore beatae molestias animi iusto, voluptates possimus necessitatibus consequuntur non perferendis.
+            </p>
+            <a href="#" class="profile-description__more">See more...</a>
+          </div>
+          <div class="profile-description">
+            <h2 class="profile-description__title">Experience</h2>
+            <div class="profile-experience-container">
+              <img src="../img/logo_microsoft.png" alt="logo microsoft" class="profile-experience-img">
+              <div class="profile-desc">
+                <h3 class="profile-desc__title">Lead Front-End Developer</h3>
+                <b class="profile-desc__info">Microsoft · Full-time</b>
+                <b class="profile-desc__info">Feb 2021 - Present · 1.5 years</b>
+                <p class="profile-desc__descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea ipsam amet sed minima dolore odio accusamus cupiditate doloribus adipisci.</p>
+                <hr class="separador-post__line separador-post__line--desc">
+              </div>
+            </div>
+            <div class="profile-experience-container">
+              <img src="../img/logo_slack.webp" alt="logo microsoft" class="profile-experience-img">
+              <div class="profile-desc">
+                <h3 class="profile-desc__title">Full Stack Developer</h3>
+                <b class="profile-desc__info">Slack · Full-time</b>
+                <b class="profile-desc__info">June 2018 - Jn 2021 · 2.6 years</b>
+                <p class="profile-desc__descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea ipsam amet sed minima dolore odio accusamus cupiditate doloribus adipisci.</p>
+                <hr class="separador-post__line separador-post__line--desc">
+              </div>
+            </div>
+            <div class="profile-experience-container">
+              <img src="../img/logo_google.png" alt="logo microsoft" class="profile-experience-img">
+              <div class="profile-desc">
+                <h3 class="profile-desc__title">Web Developer</h3>
+                <b class="profile-desc__info">Google Inc · Full-time</b>
+                <b class="profile-desc__info">Sept 2015 - May 2018 · 2.8 years</b>
+                <p class="profile-desc__descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ea ipsam amet sed minima dolore odio accusamus cupiditate doloribus adipisci.</p>
+              </div>
+            </div>
+            <hr class="separador-post__line separador-post__line--desc">
+            <a href="#" class="all-desc">Show all 7 descs
+              <i class="ri-arrow-right-line all-desc__icon"></i>
+            </a>
+          </div>
+          <div class="profile-description">
+            <h2 class="profile-description__title">Education</h2>
+            <div class="profile-experience-container">
+              <img src="../img/stanford.png" alt="logo microsoft" class="profile-experience-img">
+              <div class="profile-desc">
+                <h3 class="profile-desc__title">Stanford University</h3>
+                <b class="profile-desc__info">BSEE, Electrical Engineering</b>
+                <b class="profile-desc__info"></b>2018 - 2022</b>
+                <hr class="separador-post__line separador-post__line--desc">
+              </div>
+            </div>
+            <div class="profile-experience-container">
+              <img src="../img/north.png" alt="logo microsoft" class="profile-experience-img">
+              <div class="profile-desc">
+                <h3 class="profile-desc__title">Northwestern University</h3>
+                <b class="profile-desc__info">Computer Science</b>
+                <b class="profile-desc__info"></b>2015 - 2018</b>
+                <hr class="separador-post__line separador-post__line--desc">
+              </div>
+            </div>
+            <div class="profile-experience-container">
+              <img src="../img/mit.png" alt="logo microsoft" class="profile-experience-img">
+              <div class="profile-desc">
+                <h3 class="profile-desc__title">Harvart University</h3>
+                <b class="profile-desc__info">Senior High Scholl</b>
+                <b class="profile-desc__info"></b>2005 - 2015</b>
+              </div>
+            </div>
+          </div>
+          <div class="profile-description">
+            <h2 class="profile-description__title">Skills</h2>
+            <a href="#" class="skills-button">Leaderships</a>
+            <a href="#" class="skills-button">Web Design</a>
+            <a href="#" class="skills-button">Development</a>
+            <a href="#" class="skills-button">Communications</a>
+            <a href="#" class="skills-button">UI/UX</a>
+            <a href="#" class="skills-button">Planning</a>
+            <a href="#" class="skills-button">Coding</a>
+            <a href="#" class="skills-button">JavaScript</a>
+            <a href="#" class="skills-button">Python</a>
+            <a href="#" class="skills-button">Enterprenorship</a>
+          </div>
+          <div class="profile-description">
+            <h2 class="profile-description__title">Languages</h2>
+            <a href="#" class="language-button">English</a>
+            <a href="#" class="language-button">Germain</a>
+          </div>
+        </main>
+        <!-- Sidebar derecha -->
+        <aside class="profile-sidebar">
+          <div class="sticky">
+            <div class="sidebar-ad">
+              <span class="sidebar-ad__more-ad">Ad ···</span>
+              <p class="sidebar-ad__description">Master teh 5 principles of web desing</p>
+              <div class="sidebar-ad__imgs">
+                <img src="../img/logo_wilson.JPG" alt="foto" class="sidebar-ad__img--logo">
+                <img src="../img/xiaomi-logo.png" alt="foto" class="sidebar-ad__img">
+              </div>
+              <b class="sidebar-ad__details">Brand and Demand in Xiaomi</b>
+              <a href="#" class="ad-link">Learn more</a>
+            </div>
+            <div class="sidebar-people">
+              <h3 class="sidebar-people__title">People your may know</h3>
+              <div class="container-people">
+                <img src="../img/user-6.jfif" alt="foto perfil" class="perfil__img">
+                <div class="container-people__info">
+                  <h2 class="container-people__name">Samuel Tony</h2>
+                  <p class="container-people__profession">Head of Marketing at Alibaba</p>
+                  <a href="" class="ad-link ad-link--people">Connect</a>
+                </div>
+              </div>
+              <div class="container-people">
+                <img src="../img/user-3.jfif" alt="foto perfil" class="perfil__img">
+                <div class="container-people__info">
+                  <h2 class="container-people__name">Hernesto Gonzales</h2>
+                  <p class="container-people__profession">Head of Marketing at Alibaba</p>
+                  <a href="" class="ad-link ad-link--people">Connect</a>
+                </div>
+              </div>
+              <div class="container-people">
+                <img src="../img/user-4.jfif" alt="foto perfil" class="perfil__img">
+                <div class="container-people__info">
+                  <h2 class="container-people__name">Martin Lewis</h2>
+                  <p class="container-people__profession">Head of Marketing at Alibaba</p>
+                  <a href="" class="ad-link ad-link--people">Connect</a>
+                </div>
+              </div>
+              <div class="container-people">
+                <img src="../img/user-5.jfif" alt="foto perfil" class="perfil__img">
+                <div class="container-people__info">
+                  <h2 class="container-people__name">Damian</h2>
+                  <p class="container-people__profession">Head of Marketing at Alibaba</p>
+                  <a href="" class="ad-link ad-link--people">Connect</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <footer class="profile-footer">
+          <div class="sidebar-access-links">
+            <a href="#" class="sidebar-access-links__link">About</a>
+            <a href="#" class="sidebar-access-links__link">Accessiblity</a>
+            <a href="#" class="sidebar-access-links__link">Help Center</a>
+            <a href="#" class="sidebar-access-links__link">Privacy Policy</a>
+            <a href="#" class="sidebar-access-links__link">Advertising</a>
+            <a href="#" class="sidebar-access-links__link">Get the App</a>
+            <a href="#" class="sidebar-access-links__link">More</a>
+            <div class="copyright-msg">
+              <img src="../img/logo.png" class="copyright-msg__logo">
+              <p class="copyright-msg__rights">Linkedup © 2022. All right reserved</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+</body>
+</html>

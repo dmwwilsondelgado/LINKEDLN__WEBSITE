@@ -1,0 +1,27 @@
+@import url(main_perfil.css);
+@import url(sidebar_perfil.css);
+@import url(footer_perfil.css);
+
+/*Layout perfil*/
+.contenedor-profile {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'profile-main profile-sidebar'
+    'profile-footer profile-footer';
+    height: 100vh;
+    gap: 15px;
+    padding-top: calc(52px + 20px);
+}
+
+@media (width < 770px) {
+    .contenedor-profile {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3;
+        grid-template-areas: 
+        'profile-main'
+        'profile-sidebar'
+        'profile-footer';
+    }
+}

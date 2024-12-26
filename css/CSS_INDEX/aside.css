@@ -1,0 +1,125 @@
+.aside {
+  grid-area: aside;
+}
+
+.news {
+  background-color: var(--colorPrincipal);
+  height: max-content;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.news__title {
+  color: var(--negro);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.news__icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.2rem;
+  color: var(--colorSecundario);
+}
+
+.news__info {
+  display: block;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--colorFuente);
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.news__details {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.news__more {
+  display: block;
+  color: var(--colorSecundario);
+  font-weight: 550;
+  font-size: 0.8rem;
+  margin: 20px 0 10px;
+  text-decoration: none;
+}
+
+.sticky {
+  position: sticky;
+  top: 72px;
+}
+
+.sidebar-ad {
+  background-color: var(--colorPrincipal);
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.sidebar-ad__more-ad {
+  float: right;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.sidebar-ad__description {
+  margin: 30px 0 10px;
+}
+
+.sidebar-ad__details {
+  display: block;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.ad-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px ;
+  padding: 7px 15px;
+  border: var(--tamanoBorde) var(--tipoBorde) var(--colorSecundario);
+  border-radius: 30px;
+  color: var(--colorSecundario);
+  font-weight: 600;
+}
+
+.sidebar-ad__img {
+  width: 60px;
+  border-radius: var(--bordeRedondo);
+  margin: 5px;
+}
+
+.sidebar-access-links {
+  text-align: center;
+  padding: 15px;
+
+}
+
+.sidebar-access-links__link {
+  display: inline-block;
+  color: var(--colorFuente);
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.copyright-msg {
+  display: flex;
+  align-items: var(--alineacionEjeY);
+  justify-content: var(--alineacionEjeX);
+  margin-top: 10px;
+}
+
+.copyright-msg__logo {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.copyright-msg__rights {
+  font-size: 14px;
+  font-weight: 500;
+}

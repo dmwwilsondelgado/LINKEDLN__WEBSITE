@@ -1,0 +1,144 @@
+.sidebar {
+  grid-area: sidebar;
+}
+
+.sidebar-profile {
+  width: 100%;
+  height: max-content;
+  background-color: var(--colorPrincipal);
+}
+
+.fondo-perfil {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sidebar-profile-info {
+  padding: 0 25px;
+}
+
+.perfil__img--sidebar {
+  width: 90px;
+  height: 90px;
+  margin-top: -45px;
+  padding: 5px;
+  background-color: var(--colorPrincipal);
+}
+
+.sidebar-profile-info__name {
+  color: var(--negro);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidebar-profile-info__profesion {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebar-profile-info__information {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.sidebar-profile-info__item {
+  display: flex;
+  align-items: var(--alineacionEjeY);
+  justify-content: space-between;
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.sidebar-profile-info__count {
+  color: var(--colorSecundario);
+}
+
+.sidebar-profile-link {
+  height: max-content;
+  border-top: 1px solid var(--colorSeparador);
+  display: flex;
+  font-size: 13px;
+  padding: 2px;
+}
+
+.sidebar-profile-link__link {
+  text-decoration: none;
+  display: flex;
+  align-items: var(--alineacionEjeY);
+  justify-content: var(--alineacionEjeX);
+  gap: 8px;
+  padding: 15px 0;
+  color: var(--colorFuente);
+  width: 50%;
+}
+
+.sidebar-profile-link__link--bordeIzquierda {
+  border-left: 1px solid var(--colorSeparador);
+}
+
+.icon-sidebar {
+  color: var(--colorSecundario);
+  font-size: 1.2rem;
+}
+
+.icon-sidebar--premium {
+  color: var(--colorIconoPremium);
+}
+
+.sidebar__activity {
+  height: max-content;
+  background-color: var(--colorPrincipal);
+  padding: 5px 25px;
+  margin: 12px 0;
+}
+
+.sidebar-activiy__title {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 20px 0 15px;
+  text-transform: uppercase;
+}
+
+.sidebar-activiy__link {
+  text-decoration: none;
+  color: var(--colorFuente);
+  font-size: 13px;
+  display: flex;
+  align-items: var(--alineacionEjeY);
+  gap: 10px;
+  margin: 15px 0;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.sidebar-activiy__link:hover {
+  background-color: var(--colorHoverActivity);
+}
+
+.icon-sidebar--activity {
+  font-weight: 700;
+}
+
+.discover-more {
+  border-top: 1px solid var(--colorSeparador);
+  margin: 20px -25px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.discover-more__link {
+  text-decoration: none;
+  color: var(--colorSecundario);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s;
+  padding: 3px;
+}
+
+.discover-more__link:hover {
+  background-color: var(--colorHoverActivity);
+}
+

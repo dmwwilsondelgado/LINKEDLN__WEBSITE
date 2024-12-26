@@ -1,0 +1,38 @@
+.sidebar-people{ 
+    background-color: var(--colorPrincipal);
+    padding: 15px 25px;
+    margin: 12px 0;
+    font-size: 12px;
+}
+.sidebar-people__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+}
+
+.container-people {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px 0;
+    gap: 10px;
+}
+
+.container-people__name {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container-people__profession {
+    margin: 3px 0;
+}
+
+.ad-link--people {
+    margin: 10px 0;
+    border-color: var(--colorFuente);
+    color: var(--colorFuente);
+}
+
+.sidebar-ad__img--logo{
+    width: 20%;
+    border-radius: 60%;
+}

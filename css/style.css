@@ -1,0 +1,74 @@
+
+@import url(CSS_INDEX/header.css);
+@import url(CSS_INDEX/container.css);
+@import url(CSS_INDEX/sidebar.css);
+@import url(CSS_INDEX/main.css);
+@import url(CSS_INDEX/aside.css);
+@import url(CSS_PERFIL/style_perfil.css);
+@import url(variables.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.linkedin {
+  background-color: var(--fondoPage);
+  color: var(--colorFuente);
+  display: flex;
+  flex-direction: column;
+}
+
+/*Layout*/
+.contenedor-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  'sidebar main aside';
+  height: 100vh;
+  gap: 10px;
+  padding-top: calc(56px + 20px);
+}
+
+@media (width < 1100px) {
+  .contenedor-layout {
+    grid-template-columns: 280px 1fr;
+    grid-template-areas: 
+    'sidebar main';
+  }
+  .aside {
+    display: none;
+  }
+}
+
+@media (width < 770px) {
+  .contenedor-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    grid-template-areas: 
+    'sidebar'
+    'main';
+  }
+
+  .buscador {
+    background-color: transparent;
+  }
+
+  .buscador__barra {
+    width: 0;
+    padding: 0;
+  }
+
+  .navegation__link {
+    min-width: 45px;
+  }
+
+  .navegation_text {
+    display: none;
+  }
+
+}

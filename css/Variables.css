@@ -1,26 +1,23 @@
-:root{
-    --BLANCO_PURO:#fff;
-    --GRIS_CLARO:#aaaa;
-    --GRIS_SEMITRASPARENTE:rgba(255,255 ,255 ,0.2);
-    --GRIS_OSCURO_CLARO:#717171;  
-    --NEGRO_CARBON:#202020;
-    --BLANCO_HUMO:#f2f2f2;
-    --GRIS_PIZARRA:#313131;
-    --GRIS_ACERO:#4a4a4a;
-    --GRIS_SOMBRA:#212121;
-    --NEGRO_SUPER_profundo:#181818;
-    --NEGRO_PROFUNDO:#121212;/*NEGRO EBANO SE LLAMABA   */
-    --GRIS_SCARLA:#373737;
-    /* --GRIS_PERLA:#d4d4d4; */
-    --GRIS_NEUTRO:#aaa;
-    --BLANCO_BARRA:#edf3f8;   
+:root {
+  --negro: #000;
+  --fondoPage: #f4f2ee;
+  --colorFuente: #5f5f5f;
+  --colorPrincipal: #fff;
+  --colorSecundario: #2874b1;
+  --colorSombraHeader: rgba(0, 0, 0, 0.1);
+  --colorBuscador: #edf3f8;
+  --colorEnLinea: #41db51;
+  --colorLinkProfile: #c9dbf8;
+  --colorSeparador: #ccc;
+  --colorIconoPremium: #efcc01;
+  --colorHoverActivity: #2873b114;
+  --colorButton-Profile: #e4e6eb;
 
+  --bordeRedondo: 50%;
+  --tamanoBorde: 1px;
+  --tipoBorde: solid;
 
-
-
-
-    /* Colorees y Varibles para el perfil de linkenid */
-    --COLOR_2:#222;/*para el hover de la barra   */
-    --BLANCO_CONTENEDOR:#eeeeee;
-    /* --COLOR_B:; */
-  }
+  --alineacionEjeY: center;
+  --alineacionEjeX: center;
+  
+}
